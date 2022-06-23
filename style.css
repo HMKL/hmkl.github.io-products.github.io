@@ -37,11 +37,4 @@
   min-height: 500px;
   background-position: 50%;
 }
-.call:before {
-  content: "";
-  position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
+
