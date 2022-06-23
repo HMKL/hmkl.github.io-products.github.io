@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+* {
+  /* transition-property: all;
+  transition-duration: 0.6s;
+  transition-timing-function: ease; */
+  font-family: "Josefin Sans", sans-serif;
+}
+
+._1 {
+  padding: 100px 0;
+}
+.btn-main {
+  color: #fff;
+  border-radius: 30px;
+  font-size: 18px;
+  padding: 15px 40px;
+  display: inline-block;
+  background-color: #f9a743;
+  box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
+}
+.btn:hover {
+  background-color: #f9a743;
+  border: none;
+  color: #fff;
+}
+.section-design {
+  background-color: #f9a743;
+}
+.tns-controls {
+  display: block !important;
+}
+.call {
+  background-image: url(./src/business_large.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  background-position: 50%;
+}
