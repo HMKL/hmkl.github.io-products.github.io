@@ -37,3 +37,11 @@
   min-height: 500px;
   background-position: 50%;
 }
+.call:before {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: url("./src/business_large.jpg");
+}
