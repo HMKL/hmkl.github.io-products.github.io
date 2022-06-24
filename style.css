@@ -9,20 +9,6 @@
 ._1 {
   padding: 100px 0;
 }
-.btn-main {
-  color: #fff;
-  border-radius: 30px;
-  font-size: 18px;
-  padding: 15px 40px;
-  display: inline-block;
-  background-color: #f9a743;
-  box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
-}
-.btn:hover {
-  background-color: #f9a743;
-  border: none;
-  color: #fff;
-}
 .design {
   background-color: #f9a743;
 }
@@ -31,6 +17,21 @@
 }
 .dark {
   background-color: #f9a743;
+}
+.buy {
+  padding: 15px 20px;
+  font-size: 15px;
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid rgba(240, 173, 78, 0.75);
+  border-radius: 40px;
+  background-color: #f9a743;
+  transition: all 0.3s ease 0s;
+}
+.input-group-text {
+  background-color: #f9a743;
+  color: white;
 }
 .call {
   background-image: url(./src/business_large.jpg);
