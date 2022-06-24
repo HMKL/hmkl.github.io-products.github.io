@@ -25,6 +25,7 @@
   letter-spacing: 1px;
   line-height: 15px;
   border: 2px solid rgba(240, 173, 78, 0.75);
+  box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
   border-radius: 40px;
   background-color: #f9a743;
   transition: all 0.3s ease 0s;
