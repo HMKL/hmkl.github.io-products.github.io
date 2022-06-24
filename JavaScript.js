@@ -5,22 +5,28 @@
 
 const getRowDiv = document.querySelectorAll('.row > div');
 const getRow = document.querySelectorAll('.row');
-console.log(getRow);
+const getContainer = document.querySelectorAll('.container');
+const getSection = document.querySelectorAll('section');
+console.log(getSection);
 console.log(getRowDiv);
 
-const width = window.matchMedia('(max-width:769px)');
+const width = window.matchMedia('(max-width:767px)');
 
 function checkWidth(e) {
   if (e.matches) {
+    getSection[3].setAttribute('class', '_1 dark');
     getRow[5].classList.add('flex-column-reverse');
     getRowDiv[8].setAttribute('data-aos', 'fade-up');
     getRowDiv[10].setAttribute('data-aos', 'fade-up');
     getRowDiv[11].setAttribute('data-aos', 'fade-up');
+    getRowDiv[12].setAttribute('data-aos', 'fade-up');
     getRowDiv[13].setAttribute('data-aos', 'fade-up');
   } else {
+    getSection[3].setAttribute('class', '_1 call');
     getRow[5].classList.remove('flex-column-reverse');
     getRowDiv[8].setAttribute('data-aos', 'fade-up');
     getRowDiv[10].setAttribute('data-aos', 'fade-right');
+    getRowDiv[12].setAttribute('data-aos', 'fade-right');
     getRowDiv[11].setAttribute('data-aos', 'fade-left');
     getRowDiv[13].setAttribute('data-aos', 'fade-left');
   }
