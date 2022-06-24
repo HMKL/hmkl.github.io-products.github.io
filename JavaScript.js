@@ -2,18 +2,18 @@
 /* eslint-disable no-undef */
 /* eslint-disable linebreak-style */
 /* eslint-disable no-empty */
-
+const getContainerFluid = document.querySelector('.container-fluid');
 const getRowDiv = document.querySelectorAll('.row > div');
 const getRow = document.querySelectorAll('.row');
 const getContainer = document.querySelectorAll('.container');
 const getSection = document.querySelectorAll('section');
-console.log(getSection);
-console.log(getRowDiv);
+console.log(getContainerFluid);
 
 const width = window.matchMedia('(max-width:767px)');
 
 function checkWidth(e) {
   if (e.matches) {
+    getContainerFluid.classList.add('text-center');
     getSection[3].setAttribute('class', '_1 dark');
     getRow[5].classList.add('flex-column-reverse');
     getRowDiv[8].setAttribute('data-aos', 'fade-up');
@@ -22,6 +22,7 @@ function checkWidth(e) {
     getRowDiv[12].setAttribute('data-aos', 'fade-up');
     getRowDiv[13].setAttribute('data-aos', 'fade-up');
   } else {
+    getContainerFluid.classList.remove('text-center');
     getSection[3].setAttribute('class', '_1 call');
     getRow[5].classList.remove('flex-column-reverse');
     getRowDiv[8].setAttribute('data-aos', 'fade-up');
